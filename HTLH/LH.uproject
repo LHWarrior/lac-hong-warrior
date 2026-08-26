@@ -24,15 +24,6 @@
 			"Enabled": true
 		},
 		{
-			"Name": "MetaHuman",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Linux",
-				"Mac"
-			]
-		},
-		{
 			"Name": "MetaHumanCoreML",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
@@ -104,6 +95,15 @@
 		{
 			"Name": "MobileLauncherProfileWizard",
 			"Enabled": false
+		},
+		{
+			"Name": "MetaHumanBodyTracker",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
 		}
 	]
 }
